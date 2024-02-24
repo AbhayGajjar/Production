@@ -1,8 +1,11 @@
+
+
 import Profile from '@/components/Profile'
 import React from 'react'
 import { CgProfile } from "react-icons/cg";
 
 const CoustomerCard: React.FC = () => {
+
     const partyDetails = {
         partyName: 'Ambaji Motor Driving School',
         partyType: 'Customer',

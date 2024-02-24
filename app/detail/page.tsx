@@ -234,8 +234,8 @@ const Detail = () => {
                     <>
 
                         <div className='relative px-3'>
-                           
-                            <div className='main w-full h-screen flex  '>
+
+                            <div className='main w-full h-screen flex'>
                                 <div className="box mt-2 sm:mt-6 md:mt-10 lg:mt-16 h-[50vh] sm:h-[60vh] md:h-[70vh] w-[90vw] sm:w-[70vw] md:w-[60vw] lg:w-[50vw] rounded-xl border border-zinc-300">
                                     <div className="main px-4 py-4">
                                         <div className="main1">
