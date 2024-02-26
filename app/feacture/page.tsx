@@ -68,8 +68,6 @@ const Feacture = () => {
           </div>
 
 
-
-
         </div>
         <div className='h-[20px]'></div>
         <div className='flex items-center justify-center' >
@@ -77,7 +75,6 @@ const Feacture = () => {
             <span className="font-medium text-[#333] text-[18px] group-hover:text-white">Explore More</span>
           </button>
         </div>
-
       </div>
     </div>
 

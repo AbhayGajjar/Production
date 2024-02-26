@@ -3,13 +3,15 @@ import React, { useState } from 'react';
 import { FcInfo } from 'react-icons/fc';
 import "@/styles/Pricing.css"
 
+
+
 const Pricing = () => {
   const [isYearly, setIsYearly] = useState(false);
 
   return (
     <div className="py-10 md:px-14 p-4 max-w-screen-2xl mx-auto" id="pricing">
       <div className="text-center">
-        <h2 className="md:text-5xl text-2xl font-extrabold text-gray-900 mb-2">Here are all our plans</h2>
+        <h2 className="md:text-5xl text-2xl font-extrabold text-gray-900 mb-2">Here are all Our Plan</h2>
         <p className="text-tertiary md:w-1/3 mx-auto">A simple paragraph is comprised of three major components. The which is often a declarative sentence.</p>
         <div className="mt-16">
           <label htmlFor="toggle" className="inline-flex items-center cursor-pointer">
@@ -38,7 +40,7 @@ const Pricing = () => {
           <ul className="mt-4 space-y-2 px-4">
             <li className="flex items-center">
               <FcInfo className="mr-2 text-xl" />
-               free
+              free
             </li>
             <li className="flex items-center">
               <FcInfo className="mr-2 text-xl" />
@@ -59,13 +61,13 @@ const Pricing = () => {
           </ul>
           {/* button */}
           <div className="w-full mx-auto flex items-center justify-center mt-5">
-            <button className="mt-6 px-10 text-[#000435] hover:text-white   py-2 border border-[#000435] hover:bg-gradient-to-r from-[#232c97] to-90%   hover:border-white   hover:transform transition duration-300 hover:scale-110 font-semibold rounded-lg">
+            <button className="mt-6 px-10 text-[#000435]   py-2 border border-[#000435]     hover:transform transition duration-300 hover:scale-110 font-semibold rounded-lg">
               Get Started
             </button>
           </div>
         </div>
-        <div  className="border py-10 md:px-6 px-4 rounded-lg shadow-3xl hover:cursor-pointer transform transition duration-300 hover:scale-110  hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.30)]">
-          <h3 className="text-3xl font-bold text-center text-black">Advanced</h3>
+        <div className="border py-10 md:px-6 px-4 rounded-lg shadow-3xl hover:cursor-pointer transform transition duration-300 hover:scale-110  hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.30)]">
+          <h3 className="text-3xl font-bold text-center text-[#232867]">Advanced</h3>
           <p className="text-tertiary text-black text-center my-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis, orci nec condimentum luctus, odio magna bibendum sapien, non luctus purus purus nec odio.</p>
           <p className="mt-5 text-center text-[#232867] text-4xl font-bold">
             {isYearly ? '$399' : '$39'}<span className="text-base text-tertiary font-medium">/{isYearly ? 'year' : 'month'}</span>
@@ -100,7 +102,7 @@ const Pricing = () => {
           </div>
         </div>
 
-        <div className="border py-10 md:px-6 px-4 rounded-lg shadow-3xl hover:cursor-pointer transform transition duration-300 hover:scale-110 hover:bg-violet-100 hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.30)]">
+        <div className="border py-10 md:px-6 px-4 rounded-lg shadow-3xl hover:cursor-pointer transform transition duration-300 hover:scale-110  hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.30)]">
           <h3 className="text-3xl font-bold text-center text-[#232867]">Premium</h3>
           <p className="text-tertiary text-center my-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis, orci nec condimentum luctus, odio magna bibendum sapien, non luctus purus purus nec odio.</p>
           <p className="mt-5 text-center text-[#232867] text-4xl font-bold">
