@@ -1,39 +1,22 @@
-"use client"
+import Head from 'next/head';
+import React from 'react'
+import { MdPeopleAlt } from "react-icons/md";
 
-import React, { useEffect, useState } from 'react'
-
-
-const Test = () => {
-
-    const [data, setdata] = useState([])
-    const fetchapidata = async () => {
-    let data = await fetch('https://dummyjson.com/quotes');
-    let result = await data.json();
-    setdata(result.quotes)
-    }
-
-
-    useEffect(() => {
-        fetchapidata();
-        const intervel = setInterval(() => { fetchapidata(); }, 2000)
-        return () => clearInterval(intervel);
-
-    }, [])
-
-    return (
-        <div>
-            {
-                data.map((item: any) => {
-                    return (
-                        <div className='flex' key={item.id}>
-                            <h3 className='border-[1px] border-black'>{item.quote}</h3>
-                            <h2 className='right-0 text-center'>kcsano</h2>
-                        </div>
-                    )
-                })
-            }
+export const Test = () => {
+  return (
+    <div>
+      <div className="card w-96 glass">
+        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!" /></figure>
+        <div className="card-body">
+          <h2 className="card-title">Life hack</h2>
+          <p>How to park your car at your garage?</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-primary">Learn now!</button>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
-export default Test
+export default Test;

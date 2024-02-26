@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { FcInfo } from 'react-icons/fc';
+import "@/styles/Pricing.css"
 
 const Pricing = () => {
   const [isYearly, setIsYearly] = useState(false);
