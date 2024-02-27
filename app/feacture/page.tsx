@@ -1,6 +1,11 @@
 import React from 'react';
 import { MdPeopleAlt } from "react-icons/md";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
+import { IoLogoWechat } from "react-icons/io5";
+import { IoStorefrontSharp } from "react-icons/io5";
+import { MdUpdate } from "react-icons/md";
+import { FaRegIdCard } from "react-icons/fa";
+import { GrStorage } from "react-icons/gr";
 import "@/styles/Feacture.css"
 
 export const metadata = {
@@ -43,25 +48,25 @@ const Feacture = () => {
 
           </div>
           <div className="box hover: transform transition duration-300 hover:scale-105 bg-white hover:shadow-lg hover:shadow-violet-300 rounded-lg p-8 text-center">
-            <MdPeopleAlt className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
+            <IoLogoWechat className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
             <h3 className="text-xl text-black font-semibold mb-2"> Mobile Assistance Available</h3>
             <p className="text-gray-600 text-center mb-4">Free phone support provided as a complimentary service, offering assistance and guidance to customers at no extra cost, ensuring a seamless experience.</p>
 
           </div>
           <div className="box hover: transform transition duration-300 hover:scale-105 bg-white hover:shadow-lg hover:shadow-violet-300 rounded-lg p-8 text-center">
-            <MdPeopleAlt className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
+            <MdUpdate className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
             <h3 className="text-xl text-black font-semibold mb-2">Frequent Upgrades Included</h3>
             <p className="text-gray-600 text-center mb-4">Regular updates and improvements are part of the package, ensuring ongoing enhancements to the product or service, keeping it up-to-date and efficient</p>
 
           </div>
           <div className="box hover: transform transition duration-300 hover:scale-105 bg-white hover:shadow-lg hover:shadow-violet-300 rounded-lg p-8 text-center">
-            <MdPeopleAlt className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
+            <GrStorage className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
             <h3 className="text-xl text-black font-semibold mb-2">Unlimited Cloud Storage</h3>
             <p className="text-gray-600 text-center mb-4">Access to limitless online storage space, allowing users to store and manage files, data, and media without worrying about capacity restrictions.</p>
 
           </div>
           <div className="box hover: transform transition duration-300 hover:scale-105 bg-white hover:shadow-lg hover:shadow-violet-300 rounded-lg p-8 text-center">
-            <MdPeopleAlt className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
+            <FaRegIdCard className="h-20 mx-auto text-orange-500 mb-4 scale-[3.1]" />
             <h3 className="text-xl text-black font-semibold mb-2">Advanced Prescription Solution</h3>
             <p className="text-gray-600 text-center mb-4">Cutting-edge software streamlines prescription management, enhancing accuracy and efficiency for optimal patient care and workflow.</p>
 
